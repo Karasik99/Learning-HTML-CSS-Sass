@@ -1,0 +1,59 @@
+
+
+.homework_section{
+  position: absolute;
+  left: 450px;  
+  border: 1px solid grey;
+  width: 300px;
+  height: 460px;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 50px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.tariff_classification{
+  font-size: 18px;
+}
+
+.grand_total{
+  font-size: 48px;
+  color:rgb(9, 199, 199);
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  letter-spacing: 5px;
+  
+}
+
+.currency{
+  font-size: 18px;
+}
+
+
+.info_wrapper {
+text-align: center;
+line-height: 30px;
+}
+
+.info {
+line-height: 20px;
+}
+
+.div_button{
+  border: 2px solid grey;
+  margin: 40px 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.button{
+  color: slategrey;
+  font-weight: 500;
+  text-decoration: none;
+}

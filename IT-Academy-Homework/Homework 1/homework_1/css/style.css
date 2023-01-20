@@ -1,0 +1,59 @@
+p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 100;
+  color: lightslategrey;
+  margin-bottom: 25px;
+}
+
+.container {
+  width: 460px;
+  height: 560px;
+  margin-top: 5px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: "MuseoModerno", cursive;
+}
+
+.simple__card {
+  width: 300px;
+  border: 2px solid lightslategrey;
+}
+
+.card__name {
+  font-size: 17px;
+  font-weight: 300;
+  margin: 58px 82px 40px;
+  color: black;
+}
+
+.card__price {
+  font-size: 40px;
+  color: rgb(17, 153, 153);
+  margin-left: 60px;
+  margin-right: 68px;
+  margin-bottom: 48px;
+}
+
+.card__currency {
+  font-size: 17px;
+}
+
+.card__info {
+  margin-bottom: 45px;
+}
+
+.button {
+  border: 2px solid lightslategrey;
+  color: black;
+  padding: 20px 25px;
+  text-transform: uppercase;
+  background: none;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+button:hover {
+  background-color: rgb(211, 203, 203);
+  cursor: pointer;
+}
