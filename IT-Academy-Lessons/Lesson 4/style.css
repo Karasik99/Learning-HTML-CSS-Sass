@@ -1,0 +1,69 @@
+body{     /* вес селектор элемента = 1*/
+    background-color: yellowgreen;
+}
+
+.header{        /* вес селектор элемента = 10*/
+    /* color: royalblue; */
+}
+
+.header__name{        /* вес селектор элемента = 10*/
+    color: violet;
+}
+
+.header__name2{             /* вес селектор элемента = 10*/
+    color: red;
+}
+
+#class__names{               /* вес селектор элемента ID = 100*/
+    color: salmon;
+}
+
+/* вес селектор !impotant = 1000*/
+
+.spanic {
+    font-size: 50px;
+    
+}
+.parag,.parag2{
+    font-size: 30px;  /* Меняет размер шрифта */
+    color: lawngreen;
+    font-style: italic;  /* Меняет на курсив */
+    font-weight:bold;  /* Меняет насыщенность */
+
+}
+span{
+    color: slateblue;
+}
+
+.spanic{
+    color: sienna;  /* Цвет шрифта */
+}
+
+h2{
+    display: block;  /* Превращение строки в блок  */
+
+    width: auto; /* Меняет ширину */
+    height: auto;   /* Меняет высоту */
+
+    margin: 0px; /* Внешний отступ */
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 53px;
+    margin-right: 40px;
+    
+    padding: 20px;  /* Внутренний отступ*/
+    border: 5px solid firebrick;   /* Граница */
+
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;  /* Меняет семейство шрифта Roboto и т.п. */
+
+    text-transform: capitalize; /* Позволяет трансформировать текст */
+    text-decoration: none; /* Декоратв текста оформление подчеркивание и т. д. */
+    text-align: left; /* Выравнивание текста центра к левому краю и т.п */
+    line-height: 28px; /* расстояние между строками  */
+    letter-spacing: 5px;/* расстояние между буквами  */
+    word-spacing: 10px; /* расстояние между словами  */
+
+    
+
+}
