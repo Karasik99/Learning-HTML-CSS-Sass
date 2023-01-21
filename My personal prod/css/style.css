@@ -94,7 +94,8 @@ ul{
   padding: 90px 0 150px;
 }
 
-.new-title{
+.new-title,
+.color-title{
   margin: 0 0 50px;
   text-transform: uppercase;
   text-align: center;
@@ -123,4 +124,28 @@ ul{
 
 .new-img{
   margin-left: 190px;
+}
+
+.iphone-color{
+  padding-bottom: 150px;
+}
+
+.menu-color{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.menu-item-color img{
+margin-bottom: 20px;
+}
+
+.menu-item-color h3{
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 0 10px;
+}
+
+.menu-item-color p{
+  margin: 0;
 }
