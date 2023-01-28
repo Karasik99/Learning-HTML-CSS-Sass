@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  background-color: rgb(108, 54, 236);
+  height: 50px;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+.aside{
+  height: 100%;
+  position: fixed; 
+  z-index: 1;
+  top: 50px; 
+}
+
+.aside-left{
+  width: 10%;
+  left: 0;
+  background-color: aqua; 
+}
+
+.aside-right{
+  width: 30%;
+  right: 0;
+  background-color: tomato; 
+}
+
+.article{
+  position: relative;
+  left: 10%;
+  right: 30%;
+  max-width: 60%;
+}
+
+h2{
+  max-width: 100%;
+  text-align: center;
+  margin: 20px 0 15px;
+  color: #fff;
+  position: sticky;
+  top: 50px;
+  z-index: 1;
+  font-size: 30px;
+  background-color: rgb(238, 65, 151);
+}
+
+p{
+  padding: 10px 15px;
+  line-height: 25px;
+}
+
+.article-img{
+  margin-top: 15px;
+  text-align: center;
+}
+
