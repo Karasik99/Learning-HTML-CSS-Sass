@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -45,57 +48,53 @@
                         Электрический велосипед
                     </h3>
                     <p class="bike__text">
-                        Полная свобода передвижения 
+                        Полная свобода передвижения
                         и надежный транспорт для путешествий на любые расстояния
                     </p>
                     <p class="bike__text">
-                        HIMO C26 – это новый электровелосипед от Xiaomi, 
-                        который создан как для езды по городу, так и бездорожью. 
-                        Он имеет мощный двигатель и емкий аккумулятор, благодаря 
+                        HIMO C26 – это новый электровелосипед от Xiaomi,
+                        который создан как для езды по городу, так и бездорожью.
+                        Он имеет мощный двигатель и емкий аккумулятор, благодаря
                         которым способен проезжать на одном заряде до 100 км, что
-                        определенно выше, чем у большинства конкурентов. А большие 
-                        колеса с пневматическими шинами, дисковые тормоза, 
+                        определенно выше, чем у большинства конкурентов. А большие
+                        колеса с пневматическими шинами, дисковые тормоза,
                         7-скоростная трансмиссия и эргономичное сидение делают
-                        каждую поездку гораздо приятнее. 
+                        каждую поездку гораздо приятнее.
                     </p>
                     <a href="#" class="bike__link">Заказать</a>
                 </div>
-                <div class="bike__column">
+                <div class="bike__column bike__column-slider">
                     <div class="bike__slider">
-                        <img src="" alt="" class="bike__slider-item">
-                        <img src="" alt="" class="bike__slider-item">
-                        <img src="" alt="" class="bike__slider-item">
-                        <img src="" alt="" class="bike__slider-item">
+                        <img src="img/bike-1.jpg" alt="bike-1" class="bike__slider-item">
+                        <img src="img/bike-2.jpg" alt="bike-2" class="bike__slider-item">
+                        <img src="img/bike-3.jpg" alt="bike-3" class="bike__slider-item">
+                        <img src="img/bike-4.jpg" alt="bike-4" class="bike__slider-item">
                     </div>
                     <ul class="bike__list">
                         <li class="bike__list-item">
-                            до 100 км
-                            <span>
-                                Запас хода
-                            </span>
+                            <span class="bike__list-num">до 100 км</span>
+                            <span class="bike__list-text">Запас хода</span>
                         </li>
                         <li class="bike__list-item">
-                            25 км/ч
-                            <span>
-                                Макс cкорость
-                            </span>
+                            <span class="bike__list-num">25 км/ч</span>
+                            <span class="bike__list-text">Макс cкорость</span>
                         </li>
                         <li class="bike__list-item">
-                            3 режима езды
-                            <span>
-                                механический, гибридный, электрический
-                            </span>
+                            <span class="bike__list-num">3 режима езды</span>
+                            <span class="bike__list-text">механический, гибридный, электрический</span>
                         </li>
                         <li class="bike__list-item">
-                            25 кг
-                            <span>
-                                вес
-                            </span>
+                            <span class="bike__list-num">25 кг</span>
+                            <span class="bike__list-text">вес</span>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
