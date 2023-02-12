@@ -1,0 +1,153 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+body {
+  background-color: #ace0f9;
+  color: #afafb6;
+  font-family: "Roboto";
+}
+
+.simple-form {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 40px 25px;
+}
+
+/*  Создал доп обертку,
+чтоб сделать текст согласно макету,
+можно было и <br> без обертки */
+.simple-text {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 440px;
+  margin-bottom: 40px;
+}
+
+.simple-title {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #3e2093;
+  margin-bottom: 20px;
+}
+
+.simple-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #000;
+}
+
+.simple-wrapper {
+  display: flex;
+}
+
+.simple-info {
+  margin-right: 20px;
+}
+
+.card {
+  max-width: 240px;
+  padding: 0 32px;
+}
+
+.card:not(:first-child) {
+  padding: 0 67px;
+}
+
+.card + .card {
+  margin-top: 20px;
+}
+
+.card-img {
+  margin-bottom: 5px;
+}
+
+.card-title {
+  margin-bottom: 17px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #000;
+}
+
+.card-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+input {
+  color: #3e2093;
+  font-weight: 600;
+}
+
+.form-element {
+  padding: 15px 0 15px 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #f0f1f8;
+  border: transparent;
+}
+
+.form-element:nth-child(7n) {
+  padding: 20px 0 20px 20px;
+}
+
+.form-element::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #afafb6;
+}
+
+.element-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-btn {
+  margin-left: 135px;
+  margin-top: 16px;
+  font-family: "Arial";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  padding: 10px 20px;
+  max-width: 130px;
+  border: transparent;
+  background-color: #3e2093;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  color: #000;
+}
