@@ -27,6 +27,7 @@ a {
 ul {
   list-style: none;
 }
+/* ///////////////////HEADER//////////////// */
 
 .header {
   width: 100%;
@@ -41,6 +42,7 @@ ul {
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
+  z-index: 0;
 }
 
 .nav {
@@ -122,7 +124,7 @@ ul {
   background-color: #db3138;
 }
 
-.link__services:active{
+.link__services:active {
   transition: all 5s;
 }
 
@@ -168,24 +170,26 @@ ul {
 .contact__link {
   color: inherit;
 }
+/* //////////////////////////// */
 
-.achievements{
+/* //////////ACHIEVEMENTS///// */
+.achievements {
   padding-top: 180px;
   margin: 0 auto;
 }
 
-.achievements-flex-wrapper{
+.achievements-flex-wrapper {
   display: flex;
   justify-content: space-between;
 }
 
-.achievements__info{
+.achievements__info {
   text-align: left;
   max-width: 635px;
   margin-right: 44px;
 }
 
-.achievements__title{
+.achievements__title {
   font-family: ReformaGroteskDemiC;
   font-size: 52px;
   font-weight: 600;
@@ -194,10 +198,9 @@ ul {
   margin-bottom: 40px;
   letter-spacing: 0.05em;
   text-align: left;
-
 }
 
-.achievements__text{
+.achievements__text {
   font-family: ReformaGroteskMediumC;
   font-size: 24px;
   font-weight: 500;
@@ -206,7 +209,7 @@ ul {
   letter-spacing: 0.05em;
 }
 
-.achievement__card{
+.achievement__card {
   max-width: 320px;
   max-height: 180px;
   border: 1px solid #898989;
@@ -214,7 +217,7 @@ ul {
   text-align: center;
 }
 
-.card__title{
+.card__title {
   font-family: ReformaGroteskDemiC;
   color: #db3138;
   text-transform: uppercase;
@@ -223,14 +226,14 @@ ul {
   letter-spacing: -5px;
 }
 
-.text__element{
+.text__element {
   font-family: ReformaGroteskDemiC;
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
 }
 
-.card__text{
+.card__text {
   text-transform: uppercase;
   font-family: ReformaGroteskDemiC;
   font-size: 16px;
@@ -239,32 +242,34 @@ ul {
   letter-spacing: 0.05em;
 }
 
-.achievement__table{
+.achievement__table {
   display: flex;
 }
 
-.table__side-right{
+.table__side-right {
   margin-top: 40px;
   margin-bottom: 180px;
 }
+/* //////////////////////////// */
 
+/* ////////////SLIDER///////// */
 
-.slider-button-wrapper{
+.slider-button-wrapper {
   position: relative;
   max-width: 1560px;
   margin: 0 auto;
 }
 
-.car-slider{
+.car-slider {
   margin: 0 auto;
 }
 
-.slider{
+.slider {
   overflow: hidden;
   margin: 0 auto;
 }
 
-.slider-img{
+.slider-img {
   margin-right: 25px;
   max-width: 416px;
   max-height: 350px;
@@ -272,7 +277,7 @@ ul {
 }
 
 .slick-next,
-.slick-prev{
+.slick-prev {
   position: absolute;
   z-index: 1;
   border: none;
@@ -282,25 +287,25 @@ ul {
   height: 70px;
   cursor: pointer;
   top: 40%;
-  background-image: url('/img/icon/slider-button.png');
+  background-image: url("/img/icon/slider-button.png");
 }
 
-.slick-prev{
+.slick-prev {
   left: 0;
-  background-image: url('/img/icon/slider-button-left.png');
+  background-image: url("/img/icon/slider-button-left.png");
 }
 
-.slick-next{
+.slick-next {
   left: 93%;
 }
 
-.substrates{
+.substrates {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.substrate{
+.substrate {
   width: 366px;
   height: 70px;
   background-color: #db3138;
@@ -311,11 +316,11 @@ ul {
   left: -10px;
 }
 
-.substrate+.substrate{
+.substrate + .substrate {
   margin-left: 75px;
 }
 
-.substrate__text{
+.substrate__text {
   position: relative;
   top: 30px;
   text-transform: uppercase;
@@ -325,31 +330,33 @@ ul {
   line-height: 25px;
   letter-spacing: 0.05em;
 }
+/* //////////////////////////// */
 
-.about{
+/* ///////////ABOUT//////////// */
+.about {
   padding-top: 180px;
 }
 
-.about-flex-wrapper{
+.about-flex-wrapper {
   position: relative;
   display: flex;
 }
 
-.about__card{
+.about__card {
   text-align: center;
   max-width: 530px;
 }
 
-.info__card{
+.info__card {
   margin-bottom: 30px;
   display: flex;
 }
 
-.info__img{
+.info__img {
   margin-right: 30px;
 }
 
-.info__title{
+.info__title {
   font-family: ReformaGroteskDemiC;
   font-size: 32px;
   font-weight: 600;
@@ -358,7 +365,7 @@ ul {
   text-transform: uppercase;
 }
 
-.info__subtitle{
+.info__subtitle {
   font-family: ReformaGroteskMediumC;
   font-size: 24px;
   font-weight: 500;
@@ -368,15 +375,14 @@ ul {
   text-align: left;
 }
 
-
-.slider-2{
+.slider-2 {
   margin-left: 120px;
   max-width: 635px;
   overflow: hidden;
   position: relative;
 }
 
-.img-slider{
+.img-slider {
   background-size: cover;
 }
 
@@ -386,12 +392,12 @@ ul {
   z-index: 1;
 }
 
-.slider-2 button.slick-next{
+.slider-2 button.slick-next {
   position: absolute;
   left: 565px;
 }
 
-.slider-2-simple-text{
+.slider-2-simple-text {
   position: absolute;
   max-width: 422px;
   top: 87%;
@@ -406,17 +412,20 @@ ul {
   text-align: center;
   text-transform: uppercase;
 }
+/* //////////////////////////// */
 
-.servises{
+/* //////////SERVISES////////// */
+.servises {
   padding-top: 180px;
   text-align: center;
+  z-index: 0;
 }
 
-.servises__info{
+.servises__info {
   margin-bottom: 80px;
 }
 
-.servises-title{
+.servises-title {
   font-family: ReformaGroteskDemiC;
   font-size: 52px;
   font-weight: 600;
@@ -426,7 +435,7 @@ ul {
   margin-bottom: 40px;
 }
 
-.servises-btn{
+.servises-btn {
   padding: 20px 40px 10px;
   font-family: ReformaGroteskDemiC;
   font-size: 32px;
@@ -440,7 +449,7 @@ ul {
   background: linear-gradient(to right, #db3138 25%, transparent 80%);
 }
 
-.servises-btn+.servises-btn{
+.servises-btn + .servises-btn {
   margin-left: 60px;
 }
 
@@ -450,28 +459,29 @@ ul {
   background-color: #db3138;
 }
 
-.coloring{
+.coloring {
   display: flex;
+  margin-bottom: 180px;
 }
 
-.coloring-card{
+.coloring-card {
   padding: 60px 40px;
   max-width: 306px;
   max-height: 430px;
   border: 1px solid #898989;
 }
 
-.coloring-card+.coloring-card{
+.coloring-card + .coloring-card {
   margin-left: 25px;
 }
 
-.coloring-img{
+.coloring-img {
   width: 65px;
   height: 65px;
   margin-bottom: 27px;
 }
 
-.coloring-title{
+.coloring-title {
   font-family: ReformaGroteskDemiC;
   font-size: 24px;
   font-weight: 600;
@@ -481,7 +491,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.coloring-text{
+.coloring-text {
   font-family: ReformaGroteskDemiC;
   font-size: 16px;
   font-weight: 600;
@@ -491,9 +501,224 @@ ul {
   margin-bottom: 35px;
 }
 
-.coloring-btn{
+.coloring-btn {
   border: transparent;
   color: #ffffff;
   padding: 10px 20px 6px;
   background: linear-gradient(to right, #db3138 35%, transparent 65%);
 }
+/* ////////////////SERVISES-INNER////////// */
+.services__inner {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.slider-3 {
+  max-width: 635px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-3 {
+  max-width: 635px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+.img-slider-3 {
+  background-size: cover;
+}
+
+.img-slider-3 {
+  background-size: cover;
+}
+
+.slider-3 button.slick-next {
+  position: absolute;
+  top: 0;
+  left: 565px;
+  z-index: 1;
+}
+
+.slider-3 button.slick-prev {
+  position: absolute;
+  top: 480px;
+  z-index: 100;
+}
+
+.slider-3-simple-text {
+  max-width: 422px;
+  margin-left: 110px;
+  font-family: ReformaGroteskDemiC;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+/* //////////////////////////// */
+/* //////////////////////////// */
+
+/* /////////WORKS/////////////// */
+
+.works {
+  text-align: center;
+  padding-top: 180px;
+}
+
+.work-title {
+  font-family: ReformaGroteskDemiC;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 73px;
+  letter-spacing: 0.05em;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.work-rhombuses {
+  margin-bottom: 60px;
+}
+
+.galery {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+/* //////////////////////////// */
+
+/* ///////////QUESTIONS//////////// */
+.questions {
+  padding-top: 120px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.questions-rhombuses {
+  margin-bottom: 60px;
+}
+
+.form {
+  max-width: 640px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.part-1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.form-compound {
+  flex-grow: 1;
+  padding: 15px 0 10px 25px;
+  border: 0.2px solid #898989;
+  background-color: transparent;
+}
+
+.form-compound + .form-compound {
+  margin-left: 25px;
+}
+
+.form-compound::placeholder {
+  font-family: ReformaGroteskDemiC;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #898989;
+}
+
+.form-compound:hover {
+  border: 0.2px solid #db3138;
+}
+
+input {
+  color: #ffffff;
+}
+
+.part-2 {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.form-compound-part-2 {
+  margin-right: 70px;
+  padding: 15px 0 115px 25px;
+}
+
+.form-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons-link + .icons-link {
+  margin-top: 15px;
+}
+
+.part-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.form-button {
+  border: transparent;
+  background: linear-gradient(to right, #db3138 40%, transparent 80%);
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.form-info {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-text {
+  font-family: ReformaGroteskDemiC;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  margin-left: 14px;
+  text-transform: uppercase;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+/* //////////////////////////// */
+
+/* ////////////FOOTER/////////// */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.footer-info {
+  font-family: ReformaGroteskDemiC;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  margin-right: 187px;
+  color: #898989;
+  text-transform: uppercase;
+}
+
+.footer-nav {
+  margin: 0;
+  padding: 0;
+}
+
+/* //////////////////////////// */
