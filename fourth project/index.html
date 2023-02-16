@@ -36,7 +36,7 @@
           </li>
         </ul>
       </nav>
-  </header>
+    </div>
   </header>
   <main>
     <section class="banner">
@@ -44,9 +44,15 @@
         <div class="banner__wrapper">
           <h1 class="banner__title">Finance and Consultancy Solution
           </h1>
-          <p class="banner__subtitle">
+          <p class="banner__subtitle banner__subtitle--desk">
             We know how large objects will act,<br>
             but things on a small scale.
+          </p>
+          <p class="banner__subtitle banner__subtitle--mob">
+            We know how large 
+            objects will act, but things 
+            on a small scale just do 
+            not act that way.
           </p>
           <div class="banner__buttons">
             <button class="banner__btn banner__btn--orange">
@@ -57,27 +63,29 @@
             </button>
           </div>
         </div>
+        
+        <section class="features__wrapper">
+          <div class="features">
+            <!-- <div class="wrapper"> -->
+            <article class="features__card">
+              <img class="features__img" src="image/features-card-1.png" alt="Card image">
+              <h3 class="features__title">Environmental Consulting</h3>
+              <p class="features__text">We focus on ergonomics and meeting you where you work.</p>
+            </article>
+            <article class="features__card">
+              <img class="features__img" src="image/features-card-2.png" alt="Card image">
+              <h3 class="features__title">Finance and consultancy </h3>
+              <p class="features__text">Just type what's on your mind and we'll get you there.</p>
+            </article>
+            <article class="features__card features__card--green">
+              <img class="features__img" src="image/features-card-3.png" alt="Card image">
+              <h3 class="features__title">Financial Services Consulting</h3>
+              <p class="features__text">the quick fox jumps over the lazy dog</p>
+            </article>
+            <!-- </div> -->
+          </div>
+        </section>
       </div>
-    </section>
-
-    <section class="features wrapper">
-      <!-- <div class="wrapper"> -->
-      <article class="features__card">
-        <img class="features__img" src="image/features-card-1.png" alt="Card image">
-        <h3 class="features__title">Environmental Consulting</h3>
-        <p class="features__text">We focus on ergonomics and meeting you where you work.</p>
-      </article>
-      <article class="features__card">
-        <img class="features__img" src="image/features-card-2.png" alt="Card image">
-        <h3 class="features__title">Finance and consultancy </h3>
-        <p class="features__text">Just type what's on your mind and we'll get you there.</p>
-      </article>
-      <article class="features__card features__card--green">
-        <img class="features__img" src="image/features-card-3.png" alt="Card image">
-        <h3 class="features__title">Financial Services Consulting</h3>
-        <p class="features__text">the quick fox jumps over the lazy dog</p>
-      </article>
-      <!-- </div> -->
     </section>
 
     <section class="achievements wrapper">
@@ -175,7 +183,7 @@
         <div class="about__wrapper">
           <!-- <img class="about__img" src="image/poster.jpg" alt=""> -->
 
-          <video class="about__video" src="video/video.mp4" loop controls poster="image/poster.jpg"></video>
+          <video class="about__video" src="video.mp4" loop controls poster="image/poster.jpg"></video>
 
           <div class="about__content">
             <h3 class="about__title">Most trusted in our field</h3>
@@ -203,6 +211,7 @@
         </div>
       </div>
     </section>
+
     <section class="partners">
       <div class="wrapper">
         <div class="partners__wrapper">
@@ -213,69 +222,222 @@
           <img class="partners__img" src="image/partners-5.png" alt="">
           <img class="partners__img" src="image/partners-6.png" alt="">
         </div>
-      </div>
-      <div class="partners__bottom"></div>
-      <div class="position__wrapper">
-        <div class="partners__forms-container">
-          <form action="" class="partners__forms">
-            <h3 class="form__title">
-              Subscribe For Latest <br>
-              Newsletter
-            </h3>
-            <input class="email" type="email" name="" id="" placeholder="Your email">
-            <button class="form__btn" type="submit">
-              Subscribe
-            </button>
+
+        <div class="partners__sub">
+          <h3 class="partners__title">Subscribe For Latest <br>Newsletter</h3>
+
+          <form action="#" class="partners__form">
+            <input class="partners__email" type="email" placeholder="Your Email">
+
+            <input class="partners__btn" type="submit" value="Subscribe">
           </form>
         </div>
       </div>
+
+      <div class="partners__bottom"></div>
     </section>
-    <section class="contacts">
+
+    <section class="contact">
       <div class="wrapper">
-        <h3 class="contacts__title about__title">Get In Touch</h3>
-        <p class="contacts__desc about__desc">
-          Problems trying to resolve the conflict between <br>
-          the two major realms of Classical physics:
-          Newtonian mechanics
+        <h2 class="section-title">
+          Get In Touch
+        </h2>
+        <p class="section-desc">
+          Problems trying to resolve the conflict between<br>
+          the two major realms of Classical physics: Newtonian mechanics
         </p>
-        <div class="contacts__inner">
-          <div class="contacts__inner-card ">
-            <img class="contacts__card-img" src="image/contacts-icon-1.png" alt="">
-            <p class="card__text">georgia.young@example.com</p>
-            <p class="card__text">georgia.young@ple.com</p>
-            <h4 class="support-text">Get Support</h4>
-            <button class="card__btn">Submit Request</button>
-          </div>
 
-          <div class="contacts__inner-card card-number-2">
-            <img class="contacts__card-img" src="image/contacts-icon-2.png" alt="">
-            <p class="card__text ">georgia.young@example.com</p>
-            <p class="card__text ">georgia.young@ple.com</p>
-            <h4 class="support-text ">Get Support</h4>
-            <button class="card__btn btn-number-2 ">Submit Request</button>
-          </div>
+        <div class="contact__items">
+          <article class="contact__card">
+            <img class="contact__img" src="image/contact-icon-1.png" alt="">
 
-          <div class="contacts__inner-card">
-            <img class="contacts__card-img" src="image/contacts-icon-3.png" alt="">
-            <p class="card__text">georgia.young@example.com</p>
-            <p class="card__text">georgia.young@ple.com</p>
-            <h4 class="support-text">Get Support</h4>
-            <button class="card__btn">Submit Request</button>
-          </div>
+            <div class="contact__emails">
+              <a class="contact__email" href="mailto:georgia.young@example.com">georgia.young@example.com</a>
+              <a class="contact__email" href="mailto:georgia.young@ple.com">georgia.young@ple.com</a>
+            </div>
+
+            <h3 class="contact__title">
+              Get Support
+            </h3>
+
+            <button class="contact__btn">
+              Submit Request
+            </button>
+          </article>
+
+          <article class="contact__card contact__card--big">
+            <img class="contact__img" src="image/contact-icon-2.png" alt="">
+
+            <div class="contact__emails">
+              <a class="contact__email" href="mailto:georgia.young@example.com">georgia.young@example.com</a>
+              <a class="contact__email" href="mailto:georgia.young@ple.com">georgia.young@ple.com</a>
+            </div>
+
+            <h3 class="contact__title">
+              Get Support
+            </h3>
+
+            <button class="contact__btn">
+              Submit Request
+            </button>
+          </article>
+
+          <article class="contact__card">
+            <img class="contact__img" src="image/contact-icon-3.png" alt="">
+
+            <div class="contact__emails">
+              <a class="contact__email" href="mailto:georgia.young@example.com">georgia.young@example.com</a>
+              <a class="contact__email" href="mailto:georgia.young@ple.com">georgia.young@ple.com</a>
+            </div>
+
+            <h3 class="contact__title">
+              Get Support
+            </h3>
+
+            <button class="contact__btn">
+              Submit Request
+            </button>
+          </article>
         </div>
       </div>
     </section>
-    <section class="consulting">
-      <div class="consulting-info">
-        <h3 class="consulting__title">Consulting Agency For Your Business</h3>
-        <p class="consulting__text">the quick fox jumps over the lazy dog</p>
+
+    <section class="connect">
+      <div class="wrapper connect__wrapper">
+        <div>
+          <h2 class="connect__title">Consulting Agency For Your Business</h2>
+          <p class="connect__desc">the quick fox jumps over the lazy dog</p>
+        </div>
+
+        <button class="connect__btn">Contact Us</button>
       </div>
-      <button class="form__btn consulting__btn" type="submit">
-        Contact Us
-      </button>
     </section>
   </main>
-  <footer class="footer"></footer>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="wrapper footer__wrapper">
+        <div class="footer__col">
+          <h3 class="footer__title">
+            Company Info
+          </h3>
+
+          <ul class="footer__list">
+            <li class="footer__item">
+              About Us
+            </li>
+            <li class="footer__item">
+              Carrier
+            </li>
+            <li class="footer__item">
+              We are hiring
+            </li>
+            <li class="footer__item">
+              Blog
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__title">
+            Legal
+          </h3>
+
+          <ul class="footer__list">
+            <li class="footer__item">
+              About Us
+            </li>
+            <li class="footer__item">
+              Carrier
+            </li>
+            <li class="footer__item">
+              We are hiring
+            </li>
+            <li class="footer__item">
+              Blog
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__title">
+            Features
+          </h3>
+
+          <ul class="footer__list">
+            <li class="footer__item">
+              Business Marketing
+            </li>
+            <li class="footer__item">
+              User Analytic
+            </li>
+            <li class="footer__item">
+              Live Chat
+            </li>
+            <li class="footer__item">
+              Unlimited Support
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__title">
+            Resources
+          </h3>
+
+          <ul class="footer__list">
+            <li class="footer__item">
+              IOS & Android
+            </li>
+            <li class="footer__item">
+              Watch a Demo
+            </li>
+            <li class="footer__item">
+              Customers
+            </li>
+            <li class="footer__item">
+              API
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__title">
+            Get In Touch
+          </h3>
+
+          <ul class="footer__list">
+            <li class="footer__item">
+              <img class="footer__icon" src="image/footer-icon-1.png" alt="">
+              <a class="footer__link" href="tel:4805550103">(480) 555-0103</a>
+            </li>
+            <li class="footer__item">
+              <img class="footer__icon" src="image/footer-icon-2.png" alt="">
+              4517 Washington Ave. 
+            </li>
+            <li class="footer__item">
+              <img class="footer__icon" src="image/footer-icon-3.png" alt="">
+              <a class="footer__link" href="mailto:debra.holt@example.com">debra.holt@example.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="wrapper footer__wrapper">
+        <p class="footer__desc">
+          Made With Love By Figmaland All Right Reserved 
+        </p>
+
+        <div class="footer__socials">
+          <img class="footer__social" src="image/footer-socials-1.png" alt="">
+          <img class="footer__social" src="image/footer-socials-2.png" alt="">
+          <img class="footer__social" src="image/footer-socials-3.png" alt="">
+          <img class="footer__social" src="image/footer-socials-4.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
