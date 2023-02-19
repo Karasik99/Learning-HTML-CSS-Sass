@@ -12,12 +12,13 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <nav class="nav">
+            <nav class="nav ">
                 <div class="header__logo">
                     <a class="logo__link">manage</a>
                     <img class="logo__element" src="img/icon/ellipse.png" alt="ellipse">
@@ -99,26 +100,107 @@
         </section>
         <section class="galery">
             <div class="container">
-                <div class="pictures">
-                    <div class="pictures-container">
-                        <div class="first-picture"></div>
-                        <div class="second-picture">
-                            <img src="/img/picture/picture-1.png" alt="" class="picture">
-                            <h4 class="picture-title">Vacation</h4>
-                            <p class="picture-text">10/05/2019</p>
+                <div class="container-pictures">
+                    <article class="new">
+                        <div class="first-block new-block-1"></div>
+                        <div class="second-block">
+                            <img class="second-block-picture" src="/img/picture/picture-1.png" alt="">
+                            <h4 class="second-block-title">Vacation</h4>
+                            <p class="second-block-text">10/05/2019</p>
                         </div>
-
-                    </div>
+                    </article>
+                    <article class="new new-2">
+                        <div class="first-block new-2-block-1">
+                            <p class="second-block-text new-2-first-block-title new-2-text">Doctor</p>
+                            <p class="second-block-text new-2-first-block new-2-text">11/05/2019</p>
+                        </div>
+                        <div class="second-block new-2-block-2">
+                            <img class="second-block-picture" src="/img/picture/picture-2.png" alt="">
+                            <h4 class="second-block-title">Vacation</h4>
+                            <div class="card-text">
+                                <p class="second-block-text new-2-text">11/05/2019</p>
+                                <p class="second-block-text new-2-text">7PM</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="new new-3">
+                        <div class="first-block new-2-block-1 new-3-block-1">
+                            <p class="second-block-text new-2-first-block-title new-3-title new-2-text">9AM - 10AM</p>
+                            <p class="second-block-text new-2-first-block-title new-2-text">Doctor</p>
+                            <p class="second-block-text new-2-first-block new-2-text">10/05/2019</p>
+                        </div>
+                        <div class="second-block">
+                            <img class="second-block-picture" src="/img/picture/picture-3.png" alt="">
+                            <h4 class="second-block-title">Family dinner</h4>
+                            <p class="second-block-text">11/12/2019</p>
+                        </div>
+                    </article>
+                    <article class="new new-4">
+                        <div class="first-block new-2-block-1 new-3-block-1 new-4-block-1">
+                            <p class="second-block-text new-2-first-block-title new-3-title new-2-text">4PM - 5PM</p>
+                            <p class="second-block-text new-2-first-block-title new-2-text">Massage</p>
+                            <p class="second-block-text new-2-first-block new-2-text">11/08/2019</p>
+                        </div>
+                        <div class="second-block new-4-second-block">
+                            <img class="second-block-picture" src="/img/picture/picture-4.png" alt="">
+                            <h4 class="second-block-title">Coffee with Susan</h4>
+                            <p class="second-block-text new-4-text">10/05/2019</p>
+                            <a href="#" class="second-block-text">
+                                http://therainforestcafe.co.uk/
+                            </a>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
     </main>
-
-
-
-
-
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <nav class="nav footer-nav">
+                <div class="header__logo footer__logo">
+                    <a class="logo__link">manage</a>
+                    <img class="logo__element" src="img/icon/ellipse.png" alt="ellipse">
+                </div>
+                <ul class="nav__menu">
+                    <li class="menu__item menu-1-footer-item">
+                        <button class="menu__btn">
+                            <div class="btn__img"></div>
+                            <span class="btn__text">Calendar</span>
+                        </button>
+                    </li>
+                    <li class="menu__item menu-1-footer-item">
+                        <button class="menu__btn">
+                            <div class="btn__img btn-img-2"></div>
+                            <span class="btn__text">Plans</span>
+                        </button>
+                    </li>
+                    <li class="menu__item menu-1-footer-item">
+                        <button class="menu__btn">
+                            <div class="btn__img btn-img-3"></div>
+                            <span class="btn__text">To Do</span>
+                        </button>
+                    </li>
+                </ul>
+                <ul class="footer-menu">
+                    <li class="footer-item">
+                        <a href="#">
+                            <img src="img/icon/footer-icon-1.png" alt="icon">
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#">
+                            <img src="img/icon/footer-icon-2.png" alt="icon">
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#">
+                            <img src="img/icon/footer-icon-3.png" alt="icon">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 

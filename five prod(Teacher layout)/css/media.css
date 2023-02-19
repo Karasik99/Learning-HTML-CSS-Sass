@@ -1,0 +1,149 @@
+@media (max-width: 1160px) {
+  .footer-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1137px) {
+  .new + .new {
+    margin-left: 0;
+  }
+
+  .new {
+    margin-right: 30px;
+  }
+
+  .container-pictures {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 980px) {
+  .subhead__elements {
+    flex-wrap: wrap;
+    margin-left: 30px;
+  }
+
+  .select {
+    margin-bottom: 15px;
+  }
+
+  .section__btns {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 786px) {
+  .subhead {
+    padding-top: 22px;
+    max-height: none;
+  }
+
+  .subhead__info {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .subhead__elements {
+    margin: 0;
+    order: 0;
+  }
+
+  .searchs {
+    margin-bottom: 35px;
+  }
+
+  .checkboxs {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu__item + .menu__item {
+    margin-left: 60px;
+  }
+
+  .footer-item + .footer-item {
+    margin-left: 10px;
+  }
+
+  .menu-1-footer-item + .menu-1-footer-item {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .menu__item + .menu__item {
+    margin-left: 30px;
+  }
+
+  .footer-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu__item + .menu__item {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 470px) {
+  .footer__logo {
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .menu__item {
+    display: none;
+  }
+
+  .menu-1-footer-item {
+    display: block;
+  }
+}
+
+@media (max-width: 320px) {
+  .subhead__elements {
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+  }
+
+  .checkboxs {
+    max-width: 320px;
+    justify-content: space-around;
+  }
+
+  .checkbox-item,
+  input:nth-child(2n) {
+    margin-right: 20px;
+  }
+
+  .searchs {
+    max-width: 290px;
+  }
+
+  .select {
+    margin-right: 15px;
+    width: 150px;
+  }
+
+  .btn {
+    padding: 0 10px;
+  }
+
+  .new + .new {
+    margin-right: 0;
+  }
+
+  .new {
+    margin-right: 0;
+  }
+
+  .second-block {
+    margin-bottom: 30px;
+  }
+}
