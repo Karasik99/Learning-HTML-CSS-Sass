@@ -1,0 +1,287 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+$color-yellow:#E6C744;
+$color-white:#FFFFFF;
+$color-black:#000000;
+$color-grey:#F4F6F5;
+$main-weight: 500;
+$custom-transition: all 0.5s;
+$custom-padding-margin: 0 75px;
+$custom-border-radius: 20px;
+
+@mixin custom-btn{
+    font-size: 23px;
+    font-weight: $main-weight;
+    line-height: 34px;
+    color: $color-white;
+    padding: 14px 24px;
+    background-color: $color-black;
+    border: transparent;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: $color-white;
+    background-color: #FFE86F9C; 
+}
+
+.body__background{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+}
+
+.body__img{
+    width: 100%;
+    background-size: contain;
+}
+
+.body__link{
+    position: relative;
+    top: 52px;
+    left: 62px;
+    font-size: 20px;
+    font-weight: $main-weight;
+    line-height: 23px;
+    color: $color-black;
+}
+
+.body__link:hover{
+    color: $color-white;
+    transition: $custom-transition;
+}
+
+.header{
+    padding: $custom-padding-margin;
+    padding-top: 50px;
+}
+
+.container{
+    top: 143px;
+    width: 100%;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;   
+    background-color: $color-white;
+    border-radius: $custom-border-radius;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+    &__img{
+        max-width: 31px;
+        max-height: 29px;
+
+    }
+
+    &__text{
+        font-size: 30px;
+        font-weight: 900;
+        color: $color-black;
+        text-transform: uppercase;
+    }
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+
+    &__menu{
+        display: flex;
+    }
+
+    &__link{
+        font-weight: $main-weight;
+        font-size: 16.5px;
+        line-height: 24.75px;
+        padding: 9.75px 16.5px 12.5px;
+        color: #242323;
+        text-transform: uppercase;
+    }
+
+    &__link:hover{
+        background-color: $color-black;
+        border-radius: 5.25px;
+        color: $color-white;
+        transition: $custom-transition;
+    }
+}
+
+.nav__item+.nav__item{
+    margin-left: 15px;
+}
+
+.header__inner{
+    background-color: $color-grey;
+    display: flex;
+    justify-content: space-around;
+    border-radius: $custom-border-radius;
+    margin-bottom: 38px;
+}
+
+.inner{
+    padding-top: 57px;
+
+    &__title{
+        max-width: 355px;
+        font-size: 45px;
+        font-weight: 900;
+        line-height: 90px;
+        color: $color-black;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        
+    }
+
+    &__text{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        color: $color-black;
+        margin-bottom: 25px;
+    }
+
+    &__btn{
+        @include custom-btn; 
+        margin-bottom: 70px;
+    }
+
+    &__btn:hover{
+        background-color: $color-yellow;
+        color: $color-black;
+        transition: $custom-transition;
+    }
+}
+
+.partners{
+    width: 100%;
+    background-color: $color-white;
+    padding: 40px 95px;
+
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.arrivals{
+    margin: $custom-padding-margin;
+    padding-top: 70px;
+    background-color: #EBD96B;
+    border-radius: $custom-border-radius;
+
+    &__title{
+        padding-left: 24px;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 50px;
+        margin-bottom: 100px;
+    }
+
+    &__cards{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.card{
+    max-width: 350px;
+    padding-bottom: 50px;
+    
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__img{
+        max-width: 100%;
+    }
+
+    &__title{
+    font-size: 25px;
+    font-weight: $main-weight;
+    color: $color-black;
+    margin: 28px 0 10px;
+    }
+
+    &__text{
+        font-size: 24px;
+        font-weight: $main-weight;
+        color: #7F7F7F;
+    }
+}
+
+.payday{
+    margin-top: 90px;
+    display: flex;
+    width: 100%;
+    background-color: #F9DF56;
+
+    &__info{
+        margin-left: 70px;
+        max-width: 525px;
+    }
+
+    &__img{
+        max-width: 780px;
+        max-height: 780px;
+    }
+   
+    &__title{
+        margin-top: 120px;
+        margin-bottom: 33px;
+        font-size: 75px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    &__text{
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 15px;
+    }
+
+    &__subtitle{
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    &__btn{
+        margin-top: 70px;
+        @include custom-btn;
+    }
+
+    &__btn:hover{
+        background-color: $color-white;
+        color: $color-black;
+        transition: $custom-transition;
+    }
+}   
