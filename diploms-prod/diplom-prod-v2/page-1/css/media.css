@@ -1,0 +1,480 @@
+
+@media (max-width:1450px) {
+  .banner__title{
+      font-size: 35px;
+  }
+
+  .contacts__title{
+    font-size: 40px;
+  }
+
+  .contacts__container {
+    width: 385px;
+    padding: 25px 25px;
+    bottom: 16%;
+    right: 20%;
+  }
+
+  .about__suptitle {
+    font-size: 16px;
+  }
+
+  .about__title{
+    font-size: 30px;
+    margin-left: 165px;
+  }
+
+  .about__text{
+    font-size: 15px;
+  }
+
+  .contacts__card-1, 
+  .contacts__card-2{
+    margin-left: 100px;
+  }
+
+  .contacts__img{
+    width: 50%;
+  }
+}
+
+@media (max-width:1345px){
+  .about__suptitle{
+    margin-left: 100px;
+  }
+
+  .contacts__suptitle{
+    margin-left: 100px;
+  }
+}
+
+@media (max-width:1160px){
+  .about__suptitle{
+    margin-left: 160px;
+  }
+
+  .about__title{
+    margin-left: 315px;
+  }
+
+  .banner__title{
+    font-size: 25px;
+  }
+
+  .menu-container-img{
+    width: 80%;
+  }
+
+  .about__menu-text{
+    font-size: 15px;
+  }
+
+  .about__text{
+    margin-right: 50px;
+  }
+
+  .about__menu-imgs{
+    margin-left: 280px;
+  }
+
+  .contacts__suptitle{
+    font-size: 16px;
+    margin-left: 160px;
+  }
+
+  .contacts__cards{
+    margin-left: 100px;
+  }
+
+  .contacts__img{
+    display: none;
+  }
+
+  .contacts__container {
+    bottom: 10%;
+    right: 10%;
+  }
+
+  .footer{
+    padding-left: 120px;
+  }
+}
+
+@media (max-width:1000px){
+  .about__btn {
+    font-size: 15px;
+  }
+
+  .about__menu-container + 
+  .about__menu-container{
+    margin-left: 10px;
+  }
+
+  .contacts__container{
+    right: 5%;
+  }
+
+  .about__title{
+    margin-left: 220px;
+  }
+
+  .about{
+    padding-top: 60px;
+  }
+
+  .contacts{
+    padding-top: 60px;
+  }
+
+  .contacts__suptitle {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width:870px){
+  .contacts__container{
+    right: 1%;
+  }
+
+  .banner__title{
+    font-size: 18px;
+  }
+
+  .nav{
+    right: 30px;
+  }
+
+  .nav__link{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:835px){
+  .contacts__container{
+    right: 5%;
+  }
+
+  .aside{
+    display: none;
+  }
+
+  .contacts__cards{
+    margin-left: 0;
+  }
+
+  .contacts__suptitle{
+    margin-left: 50px;
+  }
+
+  .about__suptitle{
+    margin-left: 50px;
+  }
+
+  .about__title{
+    margin-left: 120px;
+    margin-right: 40px;
+  }
+
+  .about__text{
+    font-size: 12px;
+  }
+
+  .about__btn{
+    padding: 10px 15px;
+  }
+
+  .about__suptitle{
+    margin-bottom: 30px;
+  }
+
+  .about__menu-imgs{
+    margin-top: 40px;
+  }
+
+  .about__menu-text{
+    font-size: 10px;
+  }
+
+  .about__menu-text::before{
+   left: 120px;
+   width: 42px;
+  }
+  
+  .about__suptitle::before{
+    left: 90px;
+    width: 45px;
+  }
+
+  .about__title{
+    line-height: 50px;
+    font-size: 20px;
+  }
+
+  .about__suptitle{
+    font-size: 10px;
+  }
+
+  .footer{
+    padding-left: 0;
+  }
+
+  .contacts__suptitle{
+    font-size: 10px;
+  }
+
+  .contacts__suptitle::before{
+    left: 80px;
+    width: 45px;
+  }
+
+  .contacts__container p{
+    font-size: 12px;
+  }
+  
+  .contacts__address a{
+    font-size: 12px;
+  }
+
+  .contacts__btn{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:765px){
+  .contacts__container{
+    width: 310px;
+  }
+
+  .contacts__title{
+    font-size: 20px;
+  }
+
+  .contacts__title span{
+    font-size: 15px;
+  }
+
+  .contacts__text{
+    font-size: 14px;
+  }
+
+  .about__menu-imgs{
+    margin-left: 50px;
+  }
+}
+
+@media (max-width:668px){
+  .about__menu-imgs{
+    margin-left: 50px;
+  }
+
+  .menu-container-img{
+    width: 65%;
+  }
+
+  .contacts__container{
+    width: 240px;
+  }
+
+  .contacts__btn {
+    padding: 0 2px;
+  }
+
+  .contacts__btns,
+  .contacts__container p{
+    margin-top: 15px;
+  }
+
+  .contacts__card{
+    width: 135px;
+  }
+
+  .contacts__card-1, 
+  .contacts__card-2{
+    margin-left: 50px;
+  }
+
+  .about__btn{
+    font-size: 12px;
+  }
+
+  .about__btns{
+    margin-top: 20px;
+  }
+
+  .contacts__suptitle{
+    margin-bottom: 10px;
+  }
+
+  .contacts__card-2{
+    margin-top: 0;
+  }
+
+  .contacts__container {
+    bottom: 75px;
+  }
+
+  .footer__item p{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:620px){
+  .banner__title {
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width:582px){
+  .contacts__card-1, 
+  .contacts__card-2{
+    display: none;
+  }
+  .contacts__container{
+    position: relative;
+    bottom: 0;
+  }
+
+  .contacts{
+    padding-bottom: 20px;
+  }
+
+  .contacts__info{
+    justify-content: space-around;
+  }
+}
+
+@media (max-width:505px){
+  .about__btn + .about__btn{
+    margin-left: 5px;
+  }
+
+  .banner__title{
+    font-size: 20px;
+  }
+
+  .about__title{
+    margin-left: 35px;
+  }
+
+  .about__suptitle::before{
+    width: 30px;
+  }
+
+  .about__suptitle {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width:440px){
+  .nav__item + .nav__item{
+    margin-left: 0;
+  }
+
+  .nav__link{
+    padding: 10px 10px;
+  }
+
+  .banner__info{
+    left: 15%;
+  }
+
+  .nav{
+    right: 20%;
+  }
+}
+
+@media (max-width:395px){
+  .about__menu-text::before{
+    left: 100px;
+  }
+
+  .banner__info{
+    left: 5%;
+  }
+
+  .about__title{
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 28px;
+  }
+
+  .footer__item img{
+    display: none;
+  }
+
+  .footer__menu{
+    justify-content: center;
+  }
+
+  .footer__item+.footer__item{
+    margin-left: 10px;
+  }
+
+  .footer {
+    height: 75px;
+    padding: 26px 0;
+  }
+
+  .nav{
+    right: 0;
+    left: 0;
+  }
+}
+
+@media (max-width:350px){
+  .banner__title{
+    font-size: 15px;
+  }
+
+  .about__menu-text::before{
+    width: 20px;
+  }
+
+  .about__btns{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__btn{
+    width: 95%;
+  }
+
+  .about__btn + .about__btn{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .about__info{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__text{
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .about__title{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width:320px){
+  .about__menu-imgs{
+    padding: 0 15px;
+  }
+
+  .contacts,
+  .about{
+    padding-top: 20px;
+  }
+
+  .about__menu-imgs{
+    margin-top: 20px;
+  }
+
+  .about__menu-imgs{
+    margin-left: 10px;
+  }
+}
